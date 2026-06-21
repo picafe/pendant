@@ -10,8 +10,6 @@ I had already been working on a 32×8 bicolor matrix module and wanted to try th
 
 ### 3D model
 
-Full KiCad 3D render of the controller board with all SMD parts populated:
-
 ![Controller 3D model](images/kicad_07GL0zJXXA.png)
 
 ### Schematic
