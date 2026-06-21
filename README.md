@@ -1,4 +1,4 @@
-# Tri-color LED Pendant
+# Bicolor LED Pendant
 
 A pendant built from two PCBs: a 8×8 bicolor LED matrix module (red, orange, green) and controller board with battery charging, USB-C power, 5 V boost, and motion sensing.
 
