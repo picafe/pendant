@@ -58,4 +58,4 @@ Finally, I spent some time cleaning up the schematic:
 ![cleaned up schematic](images/kicad_k8VdsRtK4b.png)
 
 
-Total time spent: 3 hours
+Total time spent: 4 hours
