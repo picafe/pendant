@@ -59,3 +59,14 @@ Finally, I spent some time cleaning up the schematic:
 
 
 Total time spent: 4 hours
+
+# June 24: Revision of power management system
+
+Looking at my circuit again, I realized a small (not that small) flaw. Since I choose the LM66200, which is a dual ideal diode, it would always select the input from the higher voltage input. Since I am only using standard components for my resistors, I'm using a 750k resistor currently for my feedback resistor, resulting in 5.1V output. This would mean that the USB would never actually power anything. I thought of using the TPS2116 instead, which is the same IC but is a dual input MUX, but I just figured I could just have the USB input (VBUS) turn off the boost converter, and add a diode on the USB input to prevent reverse current. This is what I decided to go with, and made the quick adjustments:
+
+Enbale circuit for the boost converter (EN high, so used a N-MOSFET)
+![alt text](images/kicad_gDATWD3mC9.png)
+
+![alt text](images/kicad_Wi0S4D6EHN.png)
+
+Total time spent: 2 hours
