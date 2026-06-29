@@ -71,13 +71,14 @@ Prices are per-unit LCSC values; standard connector values are estimated.
 | C2 | 1 | 100 nF | C1525 | $0.004 | $0.00 |
 | R10–R11, R8–R9 | 4 | 4.7 kΩ | C25900 | $0.004 | $0.02 |
 | R4, R5 | 2 | 5.1 kΩ | C25905 | $0.004 | $0.01 |
+| R2, R6 | 2 | 100 kΩ | C25741 | $0.004 | $0.01 |
 | R1 | 1 | 750 kΩ | C23240 | $0.004 | $0.00 |
-| R2 | 1 | 100 kΩ | C25741 | $0.004 | $0.00 |
 | R3 | 1 | 1 kΩ | C11702 | $0.004 | $0.00 |
-| R6 | 1 | 20 kΩ | C25765 | $0.004 | $0.00 |
 | R7 | 1 | 10 kΩ | C25804 | $0.004 | $0.00 |
+| R12 | 1 | 10 kΩ | C25744 | $0.004 | $0.00 |
+| R13 | 1 | 120 Ω | C25079 | $0.004 | $0.00 |
 
-**Controller subtotal: $6.24**
+**Controller subtotal: $5.71**
 
 ### Matrix PCB
 
@@ -96,7 +97,9 @@ Prices are per-unit LCSC values; standard connector values are estimated.
 
 | Board | Subtotal |
 |-------|----------|
-| Controller | $6.24 |
+| Controller | $5.71 |
 | Matrix | $2.13 |
-| **Grand total (1× each board)** | **$8.37** |
+| **Grand total (1× each board)** | **$7.84** |
+
+*Does not include PCB fabrication, shipping, LiPo battery, or assembly fees.*
 

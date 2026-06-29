@@ -70,3 +70,12 @@ Enbale circuit for the boost converter (EN high, so used a N-MOSFET)
 ![alt text](images/kicad_Wi0S4D6EHN.png)
 
 Total time spent: 2 hours
+
+
+# June 26: Accelerometer change
+
+I decided that I was going to hand assemble the non-basic parts and only get the basic parts assembled. I originally chose it based on the fact that it was one of the good ones that supported economic assembly (and not standard only). After checking, its stock is unreliable on LCSC, so I decided to change it to the LIS2DW12, which is newer and better (and more widely available), but has a different FP and pinout, which made it annoying to route. 
+
+![alt text](images/pcbnew_vflQC6jHhr.png)
+
+Total time spent: 1 hour
